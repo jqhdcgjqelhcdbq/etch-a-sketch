@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+#container {
+    display: grid;
+    border: 1px solid black;
+}
+
+.square {
+    border: 1px solid lightgray;
+    width: 20px; /* can be adjusted */
+    height: 20px; /* can be adjusted */
+    background-color: white;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
